@@ -31,4 +31,3 @@ RUN export VERSION=$(curl https://api.github.com/repos/fluxcd/flux2/releases/lat
     install  /tmp/flux/flux /usr/local/bin
 
 WORKDIR /
-USER 10000
