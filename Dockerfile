@@ -6,7 +6,8 @@ ARG ARCH=amd64
 RUN apk add --no-cache \
     curl \
     make \
-    patch
+    patch \
+    git
 
 VOLUME /tmp
 WORKDIR /tmp
